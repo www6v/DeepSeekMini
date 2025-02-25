@@ -1,12 +1,12 @@
 
-# step1 
+# DataSet 
 ### 数据清洗, 详细看文档, 关注下数据的格式
 
 ```
 Distill_data_17k-train.arrow
 ```
 
-# step2
+# DataSet 配置
 ### 在LLama-Factory中注册自定义数据集，找到dataset_info.json
 
 ```
@@ -28,7 +28,7 @@ Distill_data_17k-train.arrow
 
 ```
 
-# step3
+# Train 脚本
 ###【配置 qwen2_full_sft.yaml】
 
 ```
@@ -73,7 +73,7 @@ run_name: Distill
 ```
 
 
-# step4
+# Train
 ### 使用Llama-Factory full脚本进行模型蒸馏，即进行全量指令微调
 
 $ cd /data/jupyterfile/wei/distill/LLaMA-Factory-main
