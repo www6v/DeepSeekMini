@@ -1,7 +1,13 @@
 # pretrain Mini DeepSeek 
 ### script
-pretrain.py - Pretrain   
-full_sft.py - full SFT  
-dpo_train.py - DPO   
+``` shell
+# Pretrain
+$ python pretrain.py 
+# full SFT   
+$ python full_sft.py  
+# DPO 
+$ python dpo_train.py    
 
-web_chat.py - web UI 
+# web UI
+$ python web_chat.py  
+```
